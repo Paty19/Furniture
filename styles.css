@@ -1,0 +1,108 @@
+.heading{
+    display: flex;
+    justify-content: center;
+}
+h1,h3{
+    font-family: 'Dancing Script', cursive;  
+    font-size: 60px;
+}
+
+.one{
+    background-image: url('https://images.unsplash.com/photo-1554995207-c18c203602cb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fHNvZmF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+}
+
+.two{
+    background-image: url('https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c29mYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+}
+
+.three {
+    background-image: url('https://images.unsplash.com/photo-1560448204-603b3fc33ddc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fHNvZmF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+}
+    
+.four {
+    background-image: url('https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRpbmluZyUyMHRhYmxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+}
+    
+.five {
+    background-image: url('https://images.unsplash.com/photo-1484101403633-562f891dc89a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c29mYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+}
+    
+.six {
+    background-image: url('https://images.unsplash.com/photo-1582582621959-48d27397dc69?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmVkfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+}
+
+.item{
+    height:90vh;
+    background-size: cover;
+    background-position: center;
+    font-family:'Dancing Script', cursive; 
+    flex: 1;
+    margin: 5px;
+    position: relative;
+}
+.container{
+    display: flex;
+}
+
+body{
+    background-color: #faf1e6;
+}
+
+h4{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+font-size: 0;
+background-color: #ffff;
+}
+.par{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    font-size: 0;
+    background-color: #ffff;
+}
+
+.price{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-size: 0;
+    background-color: #ffff;
+}
+
+.selected{
+    flex: 4;
+}
+
+.selected h4{
+    font-size: 40px;
+    transition: all 1s ease-in;
+}
+
+.selected .par{
+    font-size: 20px;
+    transition: all 1s ease-in;
+}
+
+.selected .price{
+    font-size: 35px;
+    transition: all 1s ease-in;
+}
+
+label{
+    font-family: 'Dancing Script', cursive;  
+    font-size: 30px;
+}
+
+.text{
+    background-color:#faf1e6;
+    border: none;
+    padding: 12px 20px;
+}
+.btn{
+    font-family: 'Dancing Script', cursive;  
+    font-size: 30px;
+    background-color: #00adb5;
+    flex: 1;
+}
